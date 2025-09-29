@@ -14,7 +14,7 @@ git clone https:\\Cerberos4238\Active_Users
 
 ### Execution
 
-Ouvrir powershell, se rendre dans le répertoire ou le répo a été téléchargé et éxécuter la commande 
+Ouvrir powershell en tant qu'administrateur, se rendre dans le répertoire ou le répo a été téléchargé et éxécuter la commande 
 
 ```powershell
 .\Active_users.ps1
@@ -33,3 +33,11 @@ Au caractère Ligne:1 : 1
     + FullyQualifiedErrorId : UnauthorizedAccess
 
 ```
+
+Il suffit de lancer cette commande :
+
+```powershell
+Set-ExecutionPolicy unrestricted
+```
+
+Ensuite réexécuter le script et tout devrait fonctionner normalement.

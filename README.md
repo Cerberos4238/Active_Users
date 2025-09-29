@@ -22,7 +22,13 @@ Ouvrir powershell en tant qu'administrateur, se rendre dans le répertoire ou le
 
 Si un message d'erreur comme celui ci apparait :
 
-<pre> ```powershell .\Powershell\Active_users.ps1 : Impossible de charger le fichier C:\Users\$User\Documents\Scripts\Powershell\Active_users.ps1, car l’exécution de scripts est désactivée sur ce système. Pour plus d’informations, consultez about_Execution_Policies à l’adresse https://go.microsoft.com/fwlink/?LinkID=135170. Au caractère Ligne:1 : 1 + .\Powershell\Active_users.ps1 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ + CategoryInfo : Erreur de sécurité : (:) [], PSSecurityException + FullyQualifiedErrorId : UnauthorizedAccess ``` </pre>
+<pre> .\Powershell\Active_users.ps1 : Impossible de charger le fichier C:\Users\$User\Documents\Scripts\Powershell\Active_users.ps1, car l’exécution de scripts est désactivée sur ce système. 
+  Pour plus d’informations, consultez about_Execution_Policies à l’adresse https://go.microsoft.com/fwlink/?LinkID=135170. 
+  Au caractère Ligne:1 : 1
+  + .\Powershell\Active_users.ps1 
+  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+    + CategoryInfo : Erreur de sécurité : (:) [], PSSecurityException 
+    + FullyQualifiedErrorId : UnauthorizedAccess </pre>
 
 Il suffit de lancer cette commande :
 

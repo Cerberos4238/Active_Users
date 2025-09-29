@@ -22,7 +22,8 @@ Ouvrir powershell, se rendre dans le répertoire ou le répo a été télécharg
 
 Si un message d'erreur comme celui ci apparait :
 
-``
+```powershell
+
 .\Powershell\Active_users.ps1 : Impossible de charger le fichier C:\Users\$User\Documents\Scripts\Powershell\Active_users.ps1, car l’exécution de scripts est désactivée sur ce système.
 Pour plus d’informations, consultez about_Execution_Policies à l’adresse https://go.microsoft.com/fwlink/?LinkID=135170.
 Au caractère Ligne:1 : 1
@@ -30,4 +31,5 @@ Au caractère Ligne:1 : 1
 + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : Erreur de sécurité : (:) [], PSSecurityException
     + FullyQualifiedErrorId : UnauthorizedAccess
-  ``
+
+```

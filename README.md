@@ -8,7 +8,7 @@ Ce programme permet de lister proprement les utilisateurs d'un poste windows
 
 ### Installation
 
-```
+```shell
 git clone https:\\Cerberos4238\Active_Users
 ```
 
